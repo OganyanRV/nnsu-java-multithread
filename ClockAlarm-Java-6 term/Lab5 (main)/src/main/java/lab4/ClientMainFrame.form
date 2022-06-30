@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="lab4.ClientMainFrame">
+  <grid id="bda51" binding="panel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="73" y="31" width="712" height="361"/>
+    </constraints>
+    <properties/>
+    <border type="line"/>
+    <children>
+      <component id="2cfde" class="javax.swing.JButton" binding="join">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13255915"/>
+          <borderPainted value="true"/>
+          <font name="Courier New" size="20"/>
+          <foreground color="-459265"/>
+          <inheritsPopupMenu value="false"/>
+          <text value="Подключиться"/>
+        </properties>
+      </component>
+      <component id="5ac2" class="javax.swing.JButton" binding="set">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="Установить будильник"/>
+        </properties>
+      </component>
+      <component id="9229e" class="javax.swing.JTextArea" binding="list_alarm">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2582111"/>
+          <editable value="false"/>
+          <font name="JetBrains Mono" size="24"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="80ece" class="javax.swing.JTextArea" binding="alarm">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4680549"/>
+          <font size="36"/>
+          <text value="00:00:00"/>
+        </properties>
+      </component>
+      <component id="52b4" class="javax.swing.JTextArea" binding="time">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="150"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5832715"/>
+          <columns value="0"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Impact" size="48" style="0"/>
+          <lineWrap value="false"/>
+          <margin top="45" left="30" bottom="0" right="0"/>
+          <text value="hh:mm:ss"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="da1f2" class="javax.swing.JList" binding="list_alarm_lab5">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7047023"/>
+          <font name="JetBrains Mono" size="24"/>
+        </properties>
+      </component>
+      <component id="95de5" class="javax.swing.JButton" binding="remove">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5963775"/>
+          <font name="Courier New" size="20"/>
+          <foreground color="-1"/>
+          <text value="Удалить будильник"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>

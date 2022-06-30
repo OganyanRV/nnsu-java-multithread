@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:sqlite:E:/Desktop/alarm.db</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="hibernate.hbm2ddl.auto">validate</property>
+        <property name="connection.autocommit">true</property>
+        <mapping class="lab5.Translation"/>
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+        <!-- DB schema will be updated if needed -->
+    </session-factory>
+</hibernate-configuration>
